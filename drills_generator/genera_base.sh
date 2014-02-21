@@ -9,6 +9,11 @@ char_filter() {
 	  tr "\n" " "
 }
 
+
+char_filter "ensi" "e" > drills_a.txt
+char_filter "ensirt" "rt" > drills_b.txt
+char_filter "ensirtao" "ao" > drills_c.txt
+
 char_filter "arensito" "a" > drills_1.txt
 char_filter "arensitobg" "bg" > drills_2.txt
 char_filter "arensitobgpf" "pf" > drills_3.txt
